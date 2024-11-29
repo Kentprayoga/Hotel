@@ -1,0 +1,133 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.h-font {
+  font-family: 'Cardo', serif;
+}
+.rooms_image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+  /* Memberikan ruang di bawah gambar */
+}
+
+.rooms_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Membuat gambar mengisi ruang tanpa merusak rasio */
+}
+
+.rooms_item {
+  border: 2px solid #ccc;
+  /* Border abu-abu */
+  background-color: #f8f9fa;
+  /* Background abu-abu terang */
+  padding: 20px;
+  border-radius: 8px;
+  /* Membulatkan sudut border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Efek transisi */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.rooms_item:hover {
+  transform: translateY(-5px);
+  /* Efek hover - angkat kartu */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Menambah bayangan saat hover */
+}
+
+.rooms_title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.rooms_price {
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.rooms_list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rooms_list li {
+  margin-bottom: 8px;
+}
+
+.button.rooms_button a {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Menambahkan margin antar kolom dan memastikan card memiliki tinggi yang sama */
+.col-lg-4,
+.col-md-6 {
+  margin-bottom: 30px;
+}
+
+.fasilitas-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.fasilitas-list {
+  list-style-type: none; /* Menghapus bullet points */
+  padding-left: 0; /* Menghilangkan padding kiri */
+  margin: 0;
+}
+
+.fasilitas-list li {
+  display: flex; /* Flexbox untuk menyusun item secara horizontal */
+  align-items: center; /* Vertikal sejajar */
+  margin-bottom: 8px; /* Jarak antar item */
+}
+
+.fasilitas-list li div {
+  margin-right: 10px; /* Memberi jarak antara div */
+}
+
+.fasilitas-list li .stok {
+  font-weight: bold; /* Menebalkan teks "kamar" jika diperlukan */
+}
+
+.rooms_item {
+  /* Mengatur agar semua card memiliki tinggi yang sama */
+  min-height: 500px;
+  /* Menjaga agar semua card memiliki tinggi yang sama */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Memastikan tombol book now berada di bawah card */
+.button.rooms_button {
+  margin-top: auto;
+  /* Menempatkan tombol ke bagian bawah card */
+}
+.text-danger {
+  color: red; /* Memberikan warna merah pada teks "No Refund" */
+  font-weight: bold; /* Menebalkan teks */
+  font-size: 16px; /* Menyesuaikan ukuran font */
+}
+/* Warna untuk status Tersedia */
+.status-tersedia {
+  color: green; /* Warna hijau untuk status Tersedia */
+  font-weight: bold;
+}
+
+/* Warna untuk status Tidak Tersedia */
+.status-tidak-tersedia {
+  color: red; /* Warna merah untuk status Tidak Tersedia */
+  font-weight: bold;
+}

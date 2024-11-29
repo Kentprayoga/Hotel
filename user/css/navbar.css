@@ -1,0 +1,67 @@
+:root {
+  --warna1: #1e90ff;
+  --warna2: #1886f4;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.h-font {
+  font-family: 'Cardo', serif;
+}
+body {
+  background-color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #1e90ff;
+}
+/* Custom Navbar Styling for the specific page */
+.custom-navbar-wrapper .custom-navbar {
+  background-color: #007bff;
+  /* Latar belakang navbar biru */
+  padding: 15px 0;
+}
+
+.custom-navbar-wrapper .navbar-brand {
+  color: #fff;
+  /* Warna teks navbar brand putih */
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.custom-navbar-wrapper .navbar-nav .nav-link {
+  color: #fff;
+  /* Warna teks link navbar putih */
+  margin: 0 10px;
+}
+
+.custom-navbar-wrapper .navbar-nav .nav-link:hover {
+  color: #ffcc00;
+  /* Warna kuning saat hover */
+}
+
+.custom-navbar-wrapper .btn-login {
+  background-color: #ffcc00;
+  /* Warna latar belakang tombol login kuning */
+  border: none;
+  color: #007bff;
+  /* Warna teks tombol login biru */
+  font-weight: bold;
+}
+
+.custom-navbar-wrapper .btn-login:hover {
+  background-color: #fff;
+  /* Latar belakang putih saat hover */
+  color: #007bff;
+  /* Warna teks biru saat hover */
+}
+
+/* Teks link navbar yang aktif akan berwarna kuning */
+.custom-navbar-wrapper .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ffcc00 !important;
+  /* Warna teks link aktif menjadi kuning */
+}
