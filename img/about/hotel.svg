@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>HOTEL</title>
+  <g>
+    <rect x="84.333" y="56.452" width="21" height="52.548" fill="#f9d16e"/>
+    <rect x="44.706" y="37.667" width="39.627" height="71.333" fill="#ffad5a"/>
+    <g>
+      <rect x="52.557" y="86.5" width="11.963" height="22.5" fill="#fff8e3"/>
+      <rect x="64.52" y="86.5" width="11.963" height="22.5" fill="#fff8e3"/>
+    </g>
+    <rect x="91.648" y="79.541" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="91.648" y="64.631" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="91.648" y="94.451" width="6.37" height="6.37" fill="#fff8e3"/>
+    <path d="M84.333,49.153h23.16a.167.167,0,0,1,.167.167v7.133a0,0,0,0,1,0,0H84.333a0,0,0,0,1,0,0v-7.3A0,0,0,0,1,84.333,49.153Z" fill="#f7963e"/>
+    <rect x="23.706" y="56.452" width="21" height="52.548" transform="translate(68.412 165.452) rotate(-180)" fill="#f9d16e"/>
+    <rect x="31.021" y="79.541" width="6.37" height="6.37" transform="translate(68.412 165.452) rotate(-180)" fill="#fff8e3"/>
+    <rect x="31.021" y="64.631" width="6.37" height="6.37" transform="translate(68.412 135.632) rotate(-180)" fill="#fff8e3"/>
+    <rect x="31.021" y="94.451" width="6.37" height="6.37" transform="translate(68.412 195.272) rotate(-180)" fill="#fff8e3"/>
+    <path d="M21.38,49.153H44.706a0,0,0,0,1,0,0v7.133a.167.167,0,0,1-.167.167H21.38a0,0,0,0,1,0,0v-7.3A0,0,0,0,1,21.38,49.153Z" transform="translate(66.086 105.605) rotate(180)" fill="#f7963e"/>
+    <rect x="53.363" y="58.594" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="69.307" y="58.594" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="53.363" y="45.783" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="69.307" y="45.783" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="53.363" y="71.405" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="69.307" y="71.405" width="6.37" height="6.37" fill="#fff8e3"/>
+    <rect x="42.252" y="19" width="44.536" height="13.5" rx="2.835" fill="#4f9da6"/>
+    <g>
+      <path d="M52.568,22.31v6.88H50.856V26.446H48.041V29.19H46.329V22.31h1.712v2.6h2.815v-2.6Z" fill="#fff8e3"/>
+      <path d="M54.3,25.745a3.7,3.7,0,1,1,3.7,3.565A3.672,3.672,0,0,1,54.3,25.745Zm5.638,0a1.944,1.944,0,1,0-1.943,2.013A2,2,0,0,0,59.933,25.745Z" fill="#fff8e3"/>
+      <path d="M65.126,23.842H63.034V22.31h5.888v1.532H66.839V29.19H65.126Z" fill="#fff8e3"/>
+      <path d="M72.251,23.842v1.072h3.366v1.532H72.251v1.212h3.706V29.19H70.539V22.31h5.418v1.532Z" fill="#fff8e3"/>
+      <path d="M82.711,27.658V29.19H77.693V22.31h1.7v5.348Z" fill="#fff8e3"/>
+    </g>
+    <path d="M52.562,39.167a1.5,1.5,0,0,1-1.5-1.5V32.5a1.5,1.5,0,0,1,3,0v5.167A1.5,1.5,0,0,1,52.562,39.167Z" fill="#4f9da6"/>
+    <path d="M76.477,39.167a1.5,1.5,0,0,1-1.5-1.5V32.5a1.5,1.5,0,0,1,3,0v5.167A1.5,1.5,0,0,1,76.477,39.167Z" fill="#4f9da6"/>
+    <path d="M109,110.75H19a1.75,1.75,0,0,1,0-3.5h90a1.75,1.75,0,0,1,0,3.5Z" fill="#2d1f5e"/>
+  </g>
+</svg>
